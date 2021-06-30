@@ -1,0 +1,22 @@
+.social-container{
+    margin: auto;
+    padding-top: 30px;
+    /* padding: 20px; */
+    width: 250px;
+    /* background: yellow; */
+    display: flex;
+    justify-content: space-around;
+}
+.social-container a{
+    margin: auto;
+    width: 30px;
+    color: black;
+    /* background: green; */
+    transition: tansform 250ms;
+    display: inline-block;
+}
+
+.social-container a:hover{
+    transform: translateY(-2px);
+    color: #1700fe;
+}

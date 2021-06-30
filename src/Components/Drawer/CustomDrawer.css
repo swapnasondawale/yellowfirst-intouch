@@ -1,0 +1,69 @@
+.menu-container{
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
+.drawer-content{
+    height: 700px;
+    margin: auto;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto;
+    text-align: center;
+    padding: 4px;
+}
+.hamburgerContainer{
+    border: 1px solid black;
+}
+.avatar{
+    height: 250px;
+    margin: auto;
+    padding-top: 2%;
+    margin-top: 25px;
+
+    position: relative;
+    text-align: center;
+    opacity: 1;
+    transform: translateY(0px);
+}
+.avatar-pic{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+.avatar-profile{
+    margin-bottom: 24px;
+}
+
+.avatar-profile h1{
+    margin: auto;
+    font-size: 40px;
+
+    letter-spacing: -2px;
+    margin-bottom: 8px;
+}
+.avatar-profile p{
+    margin-top: auto;
+    color: rgb(172, 169, 169);
+}
+.content{
+    opacity: 1;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.content p{
+    line-height: 1.6;
+    margin-bottom: 16px;
+}
+.empty-div{
+    width: 100px;
+    height: 1px;
+    color: aliceblue;
+
+}
+.footer{
+    text-align: center;
+    height: max-content;
+}
